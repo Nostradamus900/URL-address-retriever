@@ -7,3 +7,4 @@ with open(file_path) as html:
     cleaned_url = list(dict.fromkeys(url_matches))
     
 print('\nFound URL........................\n\n','\n '.join(cleaned_url))
+print('\nEOF..............................')
